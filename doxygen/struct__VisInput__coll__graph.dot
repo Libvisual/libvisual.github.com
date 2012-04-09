@@ -1,0 +1,43 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="_VisInput",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" plugin" ,fontname="Helvetica"];
+  Node2 [label="_VisPluginData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisPluginData.html",tooltip="The VisPluginData structure is the main plugin structure, every plugin is encapsulated in this..."];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" params" ,fontname="Helvetica"];
+  Node3 [label="_VisParamContainer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisParamContainer.html",tooltip="Parameter container, is the container for a set of parameters."];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" eventqueue" ,fontname="Helvetica"];
+  Node4 [label="_VisEventQueue",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$struct__VisEventQueue.html",tooltip="The event queue data structure."];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" events" ,fontname="Helvetica"];
+  Node5 [label="_VisList",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$struct__VisList.html",tooltip="The VisList data structure represents a linked list."];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node6 [label="_VisObject",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisObject.html",tooltip="The VisObject structure contains all the VisObject housekeeping data like refcounting and a pointer t..."];
+  Node6 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dtor" ,fontname="Helvetica"];
+  Node5 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entries" ,fontname="Helvetica"];
+  Node6 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" eventqueue" ,fontname="Helvetica"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ref" ,fontname="Helvetica"];
+  Node7 [label="_VisPluginRef",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisPluginRef.html",tooltip="The VisPluginRef data structure contains information about the plugins and does refcounting."];
+  Node6 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" info" ,fontname="Helvetica"];
+  Node8 [label="_VisPluginInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisPluginInfo.html",tooltip="The VisPluginInfo data structure contains information about a plugin and is filled within the plugin ..."];
+  Node2 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cleanup\nevents\ninit" ,fontname="Helvetica"];
+  Node6 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" plugin\nobject" ,fontname="Helvetica"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" environment" ,fontname="Helvetica"];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" info" ,fontname="Helvetica"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" callback" ,fontname="Helvetica"];
+  Node6 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" audio" ,fontname="Helvetica"];
+  Node9 [label="_VisAudio",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisAudio.html",tooltip="The VisAudio structure contains the sample and extra information about the sample like a 256 bands an..."];
+  Node10 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" beat" ,fontname="Helvetica"];
+  Node10 [label="_VisBeat",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$struct__VisBeat.html"];
+  Node6 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" obj" ,fontname="Helvetica"];
+  Node11 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" samplepool" ,fontname="Helvetica"];
+  Node11 [label="_VisAudioSamplePool",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$struct__VisAudioSamplePool.html"];
+  Node5 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" channels" ,fontname="Helvetica"];
+  Node6 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+  Node6 -> Node9 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" object" ,fontname="Helvetica"];
+}
