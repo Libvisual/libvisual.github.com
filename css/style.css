@@ -55,6 +55,7 @@ p {
 }
 #header .tagline {
   text-indent: -9999em;
+  overflow: hidden;
 }
 #header .download {
   font-family: "Comfortaa", sans-serif;
@@ -72,30 +73,31 @@ p {
 #site-name {
   display: block;
   position: absolute;
-  left: 0;
-  top: 80px;
+  left: 10px;
+  top: 70px;
   width: 460px;
   height: 100px;
   text-indent: -9999em;
+  overflow: hidden;
 }
 
 #feature {
   margin-bottom: 20px;
   height: 200px;
-}
-#feature .title {
-  font-size: 35px;
+  /* FIXME: Remove hard-coded height */
 }
 
 #content {
   padding: 20px 0;
   margin-bottom: 10px;
 }
-#content .title {
-  font-size: 35px;
-}
 #content .project-name {
   color: white;
+}
+
+.block .title {
+  font-size: 35px;
+  text-shadow: 0px 0px 5px #111;
 }
 
 #footer {

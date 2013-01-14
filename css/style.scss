@@ -5,6 +5,11 @@ $mono-font: 'Droid Sans Mono', Courier New, monospace;
 $heading-font: 'Comfortaa', sans-serif;
 $highlight-color: #ff7f2a;
 
+@mixin text-replace {
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
 // Font
 
 body {
@@ -57,7 +62,7 @@ p {
   margin-bottom: 20px;
 
   .tagline {
-    text-indent: -9999em;
+    @include text-replace;
   }
 
   .download {
@@ -78,33 +83,30 @@ p {
 #site-name {
   display: block;
   position: absolute;
-  left: 0;
-  top: 80px;
+  left: 10px;
+  top: 70px;
   width: 460px;
   height: 100px;
-  text-indent: -9999em;
+  @include text-replace;
 }
 
 #feature {
   margin-bottom: 20px;
-  height: 200px;  // FIXME: Remove hard-coded height
-
-  .title {
-    font-size: 35px;
-  }
+  height: 200px;  /* FIXME: Remove hard-coded height */
 }
 
 #content {
   padding: 20px 0;
   margin-bottom: 10px;
 
-  .title {
-    font-size: 35px;
-  }
-
   .project-name {
     color: white;
   }
+}
+
+.block .title {
+  font-size: 35px;
+  text-shadow: 0px 0px 5px #111;
 }
 
 #footer {
