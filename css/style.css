@@ -1,4 +1,6 @@
+@import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa|Istok+Web|Droid+Sans+Mono);
+@import url(960_12_col.css);
 body {
   font: normal 15px/1.6em "Istok Web", Helvetica, Arial, FreeSans, sans-serif;
   color: white;
@@ -6,10 +8,9 @@ body {
 }
 
 a {
-  color: #ff7f2a;
   text-decoration: none;
+  color: #ff7f2a;
 }
-
 a:hover {
   text-decoration: underline;
 }
@@ -17,7 +18,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Comfortaa", sans-serif;
   color: #ff7f2a;
-  margin-bottom: 0.8em;
+  margin: 0 0 0.8em 0;
+  font-weight: normal;
 }
 
 h1 {
@@ -33,7 +35,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 1em;
+  margin: 0 0 1em 0;
 }
 
 .code {
@@ -45,7 +47,7 @@ p {
   width: 960px;
   margin: 0 auto;
   padding: 10px 30px;
-  background: url("images/background.png") no-repeat top center;
+  background: url('images/background.png?1358188811') no-repeat top center;
 }
 
 header {
@@ -54,6 +56,8 @@ header {
   margin-bottom: 20px;
 }
 header .tagline {
+  margin: 0;
+  padding: 0;
   text-indent: -9999em;
   overflow: hidden;
 }
@@ -77,6 +81,8 @@ header .current-ver {
   top: 70px;
   width: 460px;
   height: 100px;
+  margin: 0;
+  padding: 0;
   text-indent: -9999em;
   overflow: hidden;
 }
@@ -84,7 +90,6 @@ header .current-ver {
 #feature {
   margin-bottom: 20px;
   height: 200px;
-  /* FIXME: Remove hard-coded height */
 }
 
 #content {
@@ -95,9 +100,13 @@ header .current-ver {
   color: white;
 }
 
+.block {
+  overflow: hidden;
+  *zoom: 1;
+}
 .block .title {
-  font-size: 35px;
-  text-shadow: 0px 0px 5px #111;
+  font-size: 2.333em;
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 5px;
 }
 
 footer {
@@ -106,11 +115,11 @@ footer {
 }
 
 #credits {
+  display: inline;
   float: left;
-  display: block;
 }
 
 #copyright {
+  display: inline;
   float: right;
-  display: block;
 }
