@@ -48,16 +48,16 @@ p {
   background: url("images/background.png") no-repeat top center;
 }
 
-#header {
+header {
   position: relative;
   height: 370px;
   margin-bottom: 20px;
 }
-#header .tagline {
+header .tagline {
   text-indent: -9999em;
   overflow: hidden;
 }
-#header .download {
+header .download {
   font-family: "Comfortaa", sans-serif;
   display: block;
   position: absolute;
@@ -66,7 +66,7 @@ p {
   font-size: 20px;
   color: #ff7f2a;
 }
-#header .current-ver {
+header .current-ver {
   font-size: 62px;
 }
 
@@ -100,7 +100,7 @@ p {
   text-shadow: 0px 0px 5px #111;
 }
 
-#footer {
+footer {
   font-size: 13px;
   padding: 20px 0;
 }
