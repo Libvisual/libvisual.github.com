@@ -1,9 +1,28 @@
-This repository holds the source and contents of http://libvisual.org (http://libvisual.github.com)
+This repository holds the source and contents of http://libvisual.org
+(http://libvisual.github.com)
 
 Development
 -----------
 
-Stylesheet(s) are generated using Compass/Sass with:
-compass compile -c compass.rb
+Stylesheet(s) are generated using Compass/Sass. To hack the
+stylesheets, edit the appropriate Sass file (.scss).
 
-To hack the stylesheets, edit the appropriate Sass file (.scss).
+Software Requirements
+
+  Sass      (http://sass-lang.com)
+  Compass   (http://compass-style.org)
+  Zen Grids (http://zengrids.com)
+
+Basic setup (requires Ruby)
+
+  gem install compass
+  gem install zen-grids
+  compass compile -c compass.rb
+
+To get Compass to automatically recompile the Sass files, use:
+
+  compass watch -c compass.rb
+
+To debug the generated CSS, you may want to add Compass add line
+information. Edit compass.rb and set the variable line_comments to
+true.

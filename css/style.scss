@@ -1,10 +1,14 @@
 @import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa|Istok+Web|Droid+Sans+Mono);
-@import url(960_12_col.css);
 
 @import "compass/css3";
 @import "compass/utilities/general";
-@import "compass/typography/links/hover-link";
+@import "compass/typography/links";
+@import "zen";
+
+// Grid layout settings
+$zen-column-count: 12;
+$zen-gutter-width: 20px;
 
 // Typography settings
 $sans-font: 'Istok Web', Helvetica, Arial, FreeSans, sans-serif;
@@ -58,6 +62,8 @@ p {
 }
 
 #page {
+  @include zen-grid-container;
+
   width: 960px;
   margin: 0 auto;
   padding: 10px 30px;
@@ -65,6 +71,9 @@ p {
 }
 
 header {
+  @include zen-clear(both);
+  @include zen-grid-item(12,1);
+
   position: relative;
   height: 370px;
   margin-bottom: 20px;
@@ -99,11 +108,22 @@ header {
 }
 
 #feature {
+  @include zen-clear(both);
+  @include zen-grid-item(12,1);
+  @include zen-nested-container;
+
   margin-bottom: 20px;
   height: 200px; // FIXME: Remove hard-coded height
 }
 
+#feature-left  { @include zen-grid-item(6,1); }
+#feature-right { @include zen-grid-item(6,7); }
+
 #content {
+  @include zen-clear(both);
+  @include zen-grid-item(12,1);
+  @include zen-nested-container;
+
   padding: 20px 0;
   margin-bottom: 10px;
 
@@ -112,9 +132,11 @@ header {
   }
 }
 
-.block {
-  @include clearfix;
+#content-left   { @include zen-grid-item(4,1); }
+#content-middle { @include zen-grid-item(4,5); }
+#content-right  { @include zen-grid-item(4,9); }
 
+.block {
   .title {
     font-size: 2.333em;
     @include text-shadow(rgba(black, 0.7) 0px 0px 5px);
@@ -122,8 +144,11 @@ header {
 }
 
 footer {
-  font-size: 13px;
-  padding: 20px 0;
+  @include zen-clear(both);
+  @include zen-grid-item(12,1);
+
+  font-size: 0.8666em;
+  padding: { top: 20px; bottom: 20px; }
 }
 
 #credits {

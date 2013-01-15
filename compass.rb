@@ -1,3 +1,5 @@
+require 'zen-grids'
+
 css_dir = 'css'
 sass_dir = 'css'
 images_dir = 'css/images'

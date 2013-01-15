@@ -1,6 +1,5 @@
 @import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Comfortaa|Istok+Web|Droid+Sans+Mono);
-@import url(960_12_col.css);
 body {
   font: normal 15px/1.6em "Istok Web", Helvetica, Arial, FreeSans, sans-serif;
   color: white;
@@ -44,13 +43,37 @@ p {
 }
 
 #page {
+  *position: relative;
+  *zoom: 1;
   width: 960px;
   margin: 0 auto;
   padding: 10px 30px;
   background: url('images/background.png?1358188811') no-repeat top center;
 }
+#page:before, #page:after {
+  content: "";
+  display: table;
+}
+#page:after {
+  clear: both;
+}
 
 header {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
   position: relative;
   height: 370px;
   margin-bottom: 20px;
@@ -88,11 +111,79 @@ header .current-ver {
 }
 
 #feature {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
+  padding-right: 0;
   margin-bottom: 20px;
   height: 200px;
 }
 
+#feature-left {
+  float: left;
+  width: 50%;
+  margin-left: 0%;
+  margin-right: -50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+#feature-right {
+  float: left;
+  width: 50%;
+  margin-left: 50%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
 #content {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  padding-left: 0;
+  padding-right: 0;
   padding: 20px 0;
   margin-bottom: 10px;
 }
@@ -100,18 +191,81 @@ header .current-ver {
   color: white;
 }
 
-.block {
-  overflow: hidden;
-  *zoom: 1;
+#content-left {
+  float: left;
+  width: 33.333%;
+  margin-left: 0%;
+  margin-right: -33.333%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
 }
+
+#content-middle {
+  float: left;
+  width: 33.333%;
+  margin-left: 33.333%;
+  margin-right: -66.667%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
+#content-right {
+  float: left;
+  width: 33.333%;
+  margin-left: 66.667%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+}
+
 .block .title {
   font-size: 2.333em;
   text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 5px;
 }
 
 footer {
-  font-size: 13px;
-  padding: 20px 0;
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: -100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  _display: inline;
+  _overflow: hidden;
+  _overflow-y: visible;
+  font-size: 0.8666em;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #credits {
