@@ -32,16 +32,16 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="385.67246"
-     inkscape:cy="500.39104"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="491.34067"
+     inkscape:cy="609.2032"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1028"
+     inkscape:window-height="1025"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1">
@@ -240,7 +240,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -332,15 +332,6 @@
          in2="result91"
          in="SourceGraphic"
          operator="over" />
-    </filter>
-    <filter
-       inkscape:collect="always"
-       id="filter6574">
-      <feBlend
-         inkscape:collect="always"
-         mode="screen"
-         in2="BackgroundImage"
-         id="feBlend6576" />
     </filter>
     <filter
        id="filter3447-0-1"
@@ -479,7 +470,7 @@
        x2="348.59814"
        y2="330.56131"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.93589743,0,0,0.93589743,287.10395,-11.976838)" />
+       gradientTransform="matrix(0.93589743,0,0,0.93589743,287.10395,2.023162)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3870-4"
@@ -658,6 +649,48 @@
            in="SourceGraphic" />
       </feMerge>
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7053-7"
+       id="linearGradient7059-0"
+       x1="348.92188"
+       y1="247.56131"
+       x2="348.59814"
+       y2="330.56131"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.93589743,0,0,0.93589743,287.10395,-11.976838)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient7053-7">
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:1;"
+         offset="0"
+         id="stop7055-4" />
+      <stop
+         style="stop-color:#f9f9f9;stop-opacity:0;"
+         offset="1"
+         id="stop7057-8" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7053-7"
+       id="linearGradient3194"
+       x1="348.92188"
+       y1="247.56131"
+       x2="348.59814"
+       y2="330.56131"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.93589743,0,0,0.93589743,287.10395,-11.976838)" />
+    <linearGradient
+       y2="330.56131"
+       x2="348.59814"
+       y1="247.56131"
+       x1="348.92188"
+       gradientTransform="matrix(0.93589743,0,0,0.93589743,313.86106,23.60532)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3204"
+       xlink:href="#linearGradient7053-7"
+       inkscape:collect="always" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -719,7 +752,7 @@
          sodipodi:role="line"
          x="740"
          y="937.36133"
-         style="font-size:13px;fill:#e6e6e6;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:13px;fill:#e6e6e6;font-family:Istok Web;-inkscape-font-specification:Istok Web Medium;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
          id="tspan6937-6">Copyleft 2005-2012  All Rights Preserved.</tspan></text>
     <g
        style="display:inline"
@@ -738,8 +771,8 @@
              id="tspan6761-2"
              x="40"
              y="404.50671"
-             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial">About <tspan
-   style="font-size:35px;fill:#e6e6e6"
+             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;font-style:normal;font-stretch:normal;font-variant:normal">About <tspan
+   style="font-size:35px;fill:#e6e6e6;-inkscape-font-specification:Comfortaa;font-family:Comfortaa;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
    id="tspan3880">LV</tspan></tspan></text>
         <flowRoot
            xml:space="preserve"
@@ -753,15 +786,15 @@
                x="37"
                y="546" /></flowRegion><flowPara
              id="flowPara3172"
-             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Arial;-inkscape-font-specification:Arial">Libvisual instantly transforms your favourite music into psychedelic art. It works by running audio from your microphones and <flowSpan
-   style="fill:#ffffff"
+             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:160.00000238000001218%;fill:#f9f9f9;font-family:Istok Web;-inkscape-font-specification:Istok Web Medium">Libvisual instantly transforms your favourite music into psychedelic art. It works by running audio from your microphones and <flowSpan
+   style="fill:#ffffff;-inkscape-font-specification:Istok Web Medium;font-family:Istok Web;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
    id="flowSpan4125">speakers through an impressive array of</flowSpan><flowSpan
-   style="fill:#ff7f2a"
+   style="fill:#ff7f2a;-inkscape-font-specification:Istok Web Medium;font-family:Istok Web;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
    id="flowSpan4117"> effects</flowSpan> that crunches the waveform into pixels. With the right <flowSpan
-   style="fill:#ff7f2a"
+   style="fill:#ff7f2a;-inkscape-font-specification:Istok Web Medium;font-family:Istok Web;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal"
    id="flowSpan4133">drivers</flowSpan><flowSpan
    id="flowSpan4141"
-   style="fill:#fff8f3;fill-opacity:1">, you can display visuals on just about anything.</flowSpan></flowPara></flowRoot>      </g>
+   style="fill:#fff8f3;fill-opacity:1;-inkscape-font-specification:Istok Web Medium;font-family:Istok Web;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal">, you can display visuals on just about anything.</flowSpan></flowPara></flowRoot>      </g>
       <g
          id="g4205">
         <text
@@ -775,29 +808,30 @@
              id="tspan6761-2-8-7"
              x="680"
              y="404.50671"
-             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial">Build <tspan
-   style="font-size:35px;fill:#e6e6e6"
+             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;font-style:normal;font-stretch:normal;font-variant:normal">Build <tspan
+   style="font-size:35px;fill:#e6e6e6;-inkscape-font-specification:Comfortaa;font-family:Comfortaa;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
    id="tspan3880-3-6">LV</tspan></tspan></text>
         <flowRoot
            xml:space="preserve"
            id="flowRoot3166-0-7"
-           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+           style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Istok Web;-inkscape-font-specification:Istok Web"
            transform="translate(643.49219,-115.75364)"><flowRegion
              id="flowRegion3168-7-1"><rect
                id="rect3170-5-2"
                width="303"
                height="188"
                x="37"
-               y="546" /></flowRegion><flowPara
-             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Arial;-inkscape-font-specification:Arial"
+               y="546"
+               style="-inkscape-font-specification:Istok Web;font-family:Istok Web" /></flowRegion><flowPara
+             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238000001218%;fill:#f9f9f9;font-family:Istok Web;-inkscape-font-specification:Istok Web"
              id="flowPara3244">We need all the help we can get to bring Libvisual to the next level. Areas that need always work are <flowSpan
-   style="fill:#ff7f29;fill-opacity:1"
+   style="fill:#ff7f29;fill-opacity:1;-inkscape-font-specification:Istok Web;font-family:Istok Web"
    id="flowSpan4109">coding, documentation, translations, <flowSpan
-   style="fill:#fff9f3;fill-opacity:1"
+   style="fill:#fff9f3;fill-opacity:1;-inkscape-font-specification:Istok Web;font-family:Istok Web"
    id="flowSpan4143">and </flowSpan>testing</flowSpan>. Send us an email at our <flowSpan
-   style="font-size:15px;line-height:160.00000238%;fill:#ff7f2a"
+   style="font-size:15px;line-height:160.00000238000001218%;fill:#ff7f2a;-inkscape-font-specification:Istok Web;font-family:Istok Web"
    id="flowSpan4095"> mailing list,</flowSpan> or drop by our IRC channel on FreeNode <flowSpan
-   style="font-size:15px;line-height:160.00000238%;fill:#ff7f2a"
+   style="font-size:15px;line-height:160.00000238000001218%;fill:#ff7f2a;-inkscape-font-specification:Istok Web;font-family:Istok Web"
    id="flowSpan4097">#libvisual</flowSpan>.</flowPara></flowRoot>      </g>
       <g
          id="g4196">
@@ -812,8 +846,8 @@
              id="tspan6761-2-8"
              x="360"
              y="404.50671"
-             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial">Run <tspan
-   style="font-size:35px;fill:#e6e6e6"
+             style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;font-style:normal;font-stretch:normal;font-variant:normal">Run <tspan
+   style="font-size:35px;fill:#e6e6e6;-inkscape-font-specification:Comfortaa;font-family:Comfortaa;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
    id="tspan3880-3">LV</tspan></tspan></text>
         <flowRoot
            xml:space="preserve"
@@ -827,7 +861,7 @@
                x="37"
                y="546" /></flowRegion><flowPara
              id="flowPara3172-9"
-             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Arial;-inkscape-font-specification:Arial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec lectus metus, non varius mi. Etiam vitae consequat felis. Nunc ullamcorper mattis ornare. Sed tincidunt augue arcu. Phasellus pulvinar metus vel neque pretium accumsan.</flowPara></flowRoot>      </g>
+             style="font-size:15px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Istok Web;-inkscape-font-specification:Istok Web Medium">Get a taste of Libvisual by trying out the latest development snapshot off our GitHub page. Even though we are still far from the next official release, this should be quite stable and good for general use. Instructions on building and installation can be found in the user guide.</flowPara></flowRoot>      </g>
     </g>
     <text
        sodipodi:linespacing="125%"
@@ -836,33 +870,32 @@
        x="39.572754"
        style="font-size:69.54013062px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;font-style:normal;font-stretch:normal;font-variant:normal"
          y="401.04907"
          x="39.572754"
          id="tspan6761-2-8-7-6"
-         sodipodi:role="line">We are back!<tspan
-   id="tspan3880-3-6-7"
-   style="font-size:35px;fill:#ff7f2a" /></tspan></text>
+         sodipodi:role="line">We are back!</tspan></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3166-5-9"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Istok Web;-inkscape-font-specification:Istok Web"
        transform="translate(3.0219727,-119.32603)"><flowRegion
          id="flowRegion3168-3-0"><rect
            id="rect3170-8-7"
            width="380.21729"
            height="119.4218"
            x="37"
-           y="546" /></flowRegion><flowPara
+           y="546"
+           style="-inkscape-font-specification:Istok Web;font-family:Istok Web" /></flowRegion><flowPara
          id="flowPara3172-9-5"
-         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Arial;-inkscape-font-specification:Arial">After a 5-year hiatus, we are back! Progress is moving swiftly on the next stable release 0.5.0. Among the changes already made are, a new CMake build system, Android support, and a new tool for testing and benchmarking.</flowPara></flowRoot>    <text
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238000001218%;fill:#f9f9f9;font-family:Istok Web;-inkscape-font-specification:Istok Web">After a 5-year hiatus, we are back! Progress is moving swiftly on the next stable release 0.5.0. Among the changes already made are, a new CMake build system, Android support, and a new commandline tool for running visualizations. We also have a new Wiki here.</flowPara></flowRoot>    <text
        sodipodi:linespacing="125%"
        id="text6759-4-9-0-6-4"
        y="401.04907"
        x="519.57275"
        style="font-size:69.54013062px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:35px;font-weight:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa;font-style:normal;font-stretch:normal;font-variant:normal"
          y="401.04907"
          x="519.57275"
          id="tspan6761-2-8-7-6-7"
@@ -870,16 +903,16 @@
     <text
        sodipodi:linespacing="125%"
        id="text6759-4-9-0-6-4-0"
-       y="177.70027"
+       y="187.70027"
        x="587.1424"
        style="font-size:126.31381226px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff7f2a;fill-opacity:1;stroke:none;display:inline;font-family:Bitstream Vera Sans"
        xml:space="preserve"><tspan
-         style="font-size:63.57456207px;font-weight:normal;fill:#ff7f2a;font-family:Arial;-inkscape-font-specification:Arial"
-         y="177.70027"
+         style="font-size:63.57456207px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ff7f2a;font-family:Comfortaa;-inkscape-font-specification:Comfortaa"
+         y="187.70027"
          x="587.1424"
          id="tspan6761-2-8-7-6-7-0"
          sodipodi:role="line">0.5.0<tspan
-   style="font-size:20px"
+   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Comfortaa;-inkscape-font-specification:Comfortaa"
    id="tspan4452"> beta &gt; download</tspan></tspan></text>
     <text
        xml:space="preserve"
@@ -891,7 +924,7 @@
          sodipodi:role="line"
          x="40"
          y="937.36133"
-         style="font-size:13px;fill:#e6e6e6;font-family:Arial;-inkscape-font-specification:Arial"
+         style="font-size:13px;fill:#e6e6e6;font-family:Istok Web;-inkscape-font-specification:Istok Web"
          id="tspan6937-6-6">Libvisual is Free, Open Source Software.</tspan></text>
     <flowRoot
        xml:space="preserve"
@@ -904,11 +937,11 @@
            height="129.09006"
            x="37"
            y="546" /></flowRegion><flowPara
-         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;fill:#f9f9f9;font-family:Arial;-inkscape-font-specification:Arial"
-         id="flowPara4746">We are now on GitHub and use Git for versioning. </flowPara><flowPara
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;letter-spacing:-0.40000001px;fill:#ffffff;font-family:Courier New;-inkscape-font-specification:Courier New"
-         id="flowPara4762">git clone https://github.com/Libvisual/libvisual.git</flowPara><flowPara
-         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238%;letter-spacing:-0.40000001px;fill:#ffffff;font-family:Courier New;-inkscape-font-specification:Courier New"
+         style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238000001218%;fill:#f9f9f9;font-family:Istok Web;-inkscape-font-specification:Istok Web"
+         id="flowPara4746">We are now on GitHub and use Git for versioning.</flowPara><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238000001218%;letter-spacing:-0.40000001000000002px;fill:#ffffff;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
+         id="flowPara4762">git clone https://github.com/Libvisual/libvisual.git </flowPara><flowPara
+         style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:160.00000238000001218%;letter-spacing:-0.40000001000000002px;fill:#ffffff;font-family:Droid Sans Mono;-inkscape-font-specification:Droid Sans Mono"
          id="flowPara4742">cd libvisual.git; cmake &amp;&amp; make install</flowPara></flowRoot>  </g>
   <g
      inkscape:groupmode="layer"
@@ -922,12 +955,12 @@
        y="277.19006"
        id="text2985"
        sodipodi:linespacing="125%"
-       transform="matrix(0.9250223,0,0,0.9250223,-146.83911,-79.300562)"><tspan
+       transform="matrix(0.9250223,0,0,0.9250223,-146.83911,-69.300562)"><tspan
          sodipodi:role="line"
          id="tspan2987"
          x="201.98335"
          y="277.19006"
-         style="font-size:144px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:-1.75802851px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Myriad Pro;-inkscape-font-specification:Myriad Pro Italic">Libvisual</tspan></text>
+         style="font-size:97.29495239px;font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:-1.75802851px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;font-family:Comfortaa;-inkscape-font-specification:Comfortaa Bold">Libvisual</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:197.37617493px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;filter:url(#filter3447-4-5);font-family:Bitstream Vera Sans"
@@ -945,13 +978,13 @@
        xml:space="preserve"
        style="font-size:31.39784813px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient7059);fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
        x="351.12473"
-       y="244.25378"
+       y="258.25378"
        id="text6759-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="351.12473"
-         y="244.25378"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient7059);fill-opacity:1;font-family:Myriad Pro;-inkscape-font-specification:Myriad Pro"
+         y="258.25378"
+         style="font-size:25px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:url(#linearGradient7059);fill-opacity:1;font-family:Comfortaa;-inkscape-font-specification:Comfortaa"
          id="tspan6937-9">Make your music pretty.</tspan></text>
   </g>
 </svg>
