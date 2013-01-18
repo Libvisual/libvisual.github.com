@@ -48,7 +48,7 @@ p {
   width: 960px;
   margin: 0 auto;
   padding: 10px 30px;
-  background: url('images/background.png?1358188811') no-repeat top center;
+  background: url('images/background.png?1358312581') no-repeat top center;
 }
 #page:before, #page:after {
   content: "";
@@ -193,9 +193,9 @@ header .current-ver {
 
 #content-left {
   float: left;
-  width: 33.333%;
+  width: 33.33333%;
   margin-left: 0%;
-  margin-right: -33.333%;
+  margin-right: -33.33333%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -210,9 +210,9 @@ header .current-ver {
 
 #content-middle {
   float: left;
-  width: 33.333%;
-  margin-left: 33.333%;
-  margin-right: -66.667%;
+  width: 33.33333%;
+  margin-left: 33.33333%;
+  margin-right: -66.66667%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -227,8 +227,8 @@ header .current-ver {
 
 #content-right {
   float: left;
-  width: 33.333%;
-  margin-left: 66.667%;
+  width: 33.33333%;
+  margin-left: 66.66667%;
   margin-right: -100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -276,4 +276,13 @@ footer {
 #copyright {
   display: inline;
   float: right;
+}
+
+.image-anim-container {
+  position: relative;
+}
+.image-anim-container .image-anim-frame {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
