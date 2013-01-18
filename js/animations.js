@@ -1,7 +1,5 @@
 (function($) {
     $(document).ready(function() {
-        var imageAnimList = {};
-
         function getCurrentTime() {
             return new Date().getTime();
         }
@@ -17,6 +15,7 @@
         ImageAnim.prototype.start = function(context) {
             this.animStartTime = getCurrentTime();
             this.context       = context;
+            this.draw();
         };
 
         ImageAnim.prototype.draw = function() {
@@ -32,32 +31,25 @@
         };
 
         $('.image-anim').each(function() {
-            var imageURL = $(this).attr('data-image-anim');
+            var self = $(this);
+
+            var imageURL = self.attr('data-image-anim');
             var image = new Image();
 
-            $('<canvas width="220" height="165" />').insertAfter($(this)).hide();
-
             image.onload = function() {
-                imageAnimList[imageURL] = new ImageAnim(image, 220, 5);
+                var canvas = $('<canvas width="220" height="165" />').insertAfter(self).hide();
+                var imageAnim = new ImageAnim(image, 220, 5);
+
+                self.mouseenter(function() {
+                    imageAnim.start(canvas[0].getContext('2d'));
+                    canvas.show();
+                }).mouseleave(function() {
+                    canvas.hide();
+                    imageAnim.stop();
+                });
             };
 
             image.src = imageURL;
-        });
-
-        $('.image-anim').mouseenter(function() {
-            var canvas    = $(this).next();
-            var imageURL  = $(this).attr('data-image-anim');
-            var imageAnim = imageAnimList[imageURL];
-
-            imageAnim.start(canvas.getContext('2d'));
-            canvas.show();
-        }).mouseleave(function() {
-            var canvas    = $(this).next();
-            var imageURL  = $(this).attr('data-image-anim');
-            var imageAnim = imageAnimList[imageURL];
-
-            canvas.hide();
-            imageAnim.stop();
         });
     });
 })(jQuery);
