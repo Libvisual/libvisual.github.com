@@ -1,4 +1,4 @@
-if (Modernizr.canvas) {
+(function($) {
     $(document).ready(function() {
         var imageAnimList = {};
 
@@ -60,4 +60,4 @@ if (Modernizr.canvas) {
             imageAnim.stop();
         });
     });
-}
+})(jQuery);
