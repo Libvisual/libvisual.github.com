@@ -37,19 +37,20 @@
 
         $('.image-anim').each(function() {
             var self = $(this);
-
             var imageURL = self.attr('data-image-anim');
             var image = new Image();
 
             image.onload = function() {
-                var canvas = $('<canvas width="220" height="165" />').insertAfter(self).hide();
+                var parent = self.wrap('<div class="image-anim-container" />').parent();
+                var canvas = $('<canvas class="image-anim-frame" width="220" height="165" />').insertAfter(self).hide();
+
                 var imageAnim = new ImageAnim(image, 220, 5);
 
-                self.mouseenter(function() {
+                parent.mouseenter(function() {
                     imageAnim.start(canvas[0].getContext('2d'));
-                    canvas.show();
+                    canvas.show('fast');
                 }).mouseleave(function() {
-                    canvas.hide();
+                    canvas.hide('fast');
                     imageAnim.stop();
                 });
             };
