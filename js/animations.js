@@ -13,8 +13,12 @@
         }
 
         ImageAnim.prototype.start = function(context) {
+            var self = this;
+
             this.animStartTime = getCurrentTime();
             this.context       = context;
+            this.intervalID    = window.setInterval(function() { self.draw(); }, this.frameDuration);
+
             this.draw();
         };
 
@@ -27,6 +31,7 @@
         };
 
         ImageAnim.prototype.stop = function() {
+            window.clearInterval(this.intervalID);
             this.context = null;
         };
 
