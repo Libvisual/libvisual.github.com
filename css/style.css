@@ -21,18 +21,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-h1 {
-  font-size: 1.8em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-h3 {
-  font-size: 1.4em;
-}
-
 p {
   margin: 0 0 1em 0;
 }
@@ -48,7 +36,7 @@ p {
   width: 960px;
   margin: 0 auto;
   padding: 10px 30px;
-  background: url('images/background.png?1358312581') no-repeat top center;
+  background: url('images/background.png?1359126515') no-repeat top center;
 }
 #page:before, #page:after {
   content: "";
@@ -56,6 +44,10 @@ p {
 }
 #page:after {
   clear: both;
+}
+#page.front > section > section > h1 {
+  font-size: 2.333em;
+  text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 5px;
 }
 
 header {
@@ -131,6 +123,9 @@ header .current-ver {
   margin-bottom: 20px;
   height: 200px;
 }
+#feature > h1 {
+  display: none;
+}
 
 #feature-left {
   float: left;
@@ -187,15 +182,18 @@ header .current-ver {
   padding: 20px 0;
   margin-bottom: 10px;
 }
+#content > h1 {
+  display: none;
+}
 #content .project-name {
   color: white;
 }
 
 #content-left {
   float: left;
-  width: 33.33333%;
+  width: 33.333%;
   margin-left: 0%;
-  margin-right: -33.33333%;
+  margin-right: -33.333%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -210,9 +208,9 @@ header .current-ver {
 
 #content-middle {
   float: left;
-  width: 33.33333%;
-  margin-left: 33.33333%;
-  margin-right: -66.66667%;
+  width: 33.333%;
+  margin-left: 33.333%;
+  margin-right: -66.667%;
   padding-left: 10px;
   padding-right: 10px;
   -moz-box-sizing: border-box;
@@ -227,8 +225,8 @@ header .current-ver {
 
 #content-right {
   float: left;
-  width: 33.33333%;
-  margin-left: 66.66667%;
+  width: 33.333%;
+  margin-left: 66.667%;
   margin-right: -100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -240,11 +238,6 @@ header .current-ver {
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
-}
-
-.block .title {
-  font-size: 2.333em;
-  text-shadow: rgba(0, 0, 0, 0.7) 0px 0px 5px;
 }
 
 footer {
@@ -263,7 +256,6 @@ footer {
   _display: inline;
   _overflow: hidden;
   _overflow-y: visible;
-  font-size: 0.8666em;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -283,6 +275,7 @@ footer {
 }
 .image-anim-container .image-anim-frame {
   position: absolute;
+  overflow: hidden;
   right: 0;
   bottom: 0;
 }

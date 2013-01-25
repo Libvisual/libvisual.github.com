@@ -48,10 +48,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-h1 { font-size: 1.8em; }
-h2 { font-size: 1.6em; }
-h3 { font-size: 1.4em; }
-
 p {
   margin: 0 0 1em 0;
 }
@@ -68,6 +64,11 @@ p {
   margin: 0 auto;
   padding: 10px 30px;
   background: image-url('background.png') no-repeat top center;
+
+  &.front > section > section > h1 {
+    font-size: 2.333em;
+    @include text-shadow(rgba(black, 0.7) 0px 0px 5px);
+  }
 }
 
 header {
@@ -114,6 +115,10 @@ header {
 
   margin-bottom: 20px;
   height: 200px; // FIXME: Remove hard-coded height
+
+  & > h1 {
+    display: none;
+  }
 }
 
 #feature-left  { @include zen-grid-item(6,1); }
@@ -127,6 +132,10 @@ header {
   padding: 20px 0;
   margin-bottom: 10px;
 
+  & > h1 {
+    display: none;
+  }
+
   .project-name {
     color: white;
   }
@@ -136,18 +145,10 @@ header {
 #content-middle { @include zen-grid-item(4,5); }
 #content-right  { @include zen-grid-item(4,9); }
 
-.block {
-  .title {
-    font-size: 2.333em;
-    @include text-shadow(rgba(black, 0.7) 0px 0px 5px);
-  }
-}
-
 footer {
   @include zen-clear(both);
   @include zen-grid-item(12,1);
 
-  font-size: 0.8666em;
   padding: { top: 20px; bottom: 20px; }
 }
 

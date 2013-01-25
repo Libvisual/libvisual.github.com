@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="no-js">
+<html lang="en" class="no-js">
 
 <head>
   <title>Libvisual - Make your music pretty</title>
@@ -25,16 +25,17 @@
 
 <body>
 
-    <div id="page">
+    <div id="page" class="front">
       <header>
         <a id="site-name" title="Homepage" href="/"><h1>Libvisual</h1></a>
         <p class="tagline">Make your music pretty</p>
         <p class="download"><span class="current-ver">0.5.0</span> beta &gt; <a href="https://github.com/Libvisual/libvisual">download</a></p>
       </header>
 
-      <div id="feature">
-        <div id="feature-left" class="block">
-          <h3 class="title">We are back!</h3>
+      <section id="feature">
+        <h1>Featured</h1>
+        <section id="feature-left">
+          <h1>We are back!</h1>
           <p>After a 5-year hiatus, we are back! Progress is moving
             swiftly on the next stable release 0.5.0. Among the
             changes already made are, a new CMake build system,
@@ -42,28 +43,29 @@
             visualizations. We also have a new
             Wiki <a target="lv-wiki"
             href="https://github.com/Libvisual/libvisual/wiki">here</a>.</p>
-        </div>
-        <div id="feature-right" class="block">
-          <h3 class="title">Working with LV</h3>
+        </section>
+        <section id="feature-right">
+          <h1>Working with LV</h1>
           <p>We are now on <a target="lv-github-page" href="https://github.com/Libvisual/libvisual">GitHub</a> and use Git for versioning.</p>
           <p class="code" style="letter-spacing:-0.025em;">git clone https://github.com/Libvisual/libvisual.git
 cd libvisual; cmake . &amp;&amp; make install</p>
-        </div>
-      </div> <!-- feature -->
+        </section>
+      </section> <!-- feature -->
 
-      <div id="content">
-        <div id="content-left" class="block">
-          <h2 class="title">About <span class="project-name">LV</span></h2>
+      <section id="content">
+        <h1>Information</h1>
+        <section id="content-left">
+          <h1>About <span class="project-name">LV</span></h1>
           <p>Libvisual instantly transforms your favourite music into
             psychedelic art. It works by running audio streams through
             an impressive array of
             <a href="#">effects</a> that crunches the waveform into pixels. With the right
             <a href="#">drivers</a>, you can display visuals on just about anything.
           </p>
-        </div> <!-- content-left -->
+        </section> <!-- content-left -->
 
-        <div id="content-middle" class="block">
-          <h2 class="title">Use <span class="project-name">LV</span></h2>
+        <section id="content-middle">
+          <h1>Use <span class="project-name">LV</span></h1>
           <p>Get a taste of Libvisual by trying out the latest
             development snapshot off
             our <a href="https://github.com/Libvisual/libvisual">GitHub
@@ -73,11 +75,11 @@ cd libvisual; cmake . &amp;&amp; make install</p>
             be found in the
             <a href="https://github.com/Libvisual/libvisual/wiki/UserGuide">user
             guide.</a>
-            </p>
-        </div> <!-- content-middle -->
+          </p>
+        </section> <!-- content-middle -->
 
-        <div id="content-right" class="block">
-          <h2 class="title">Develop <span class="project-name">LV</span></h2>
+        <section id="content-right">
+          <h1>Develop <span class="project-name">LV</span></h1>
           <p>We need all the help we can get to bring Libvisual to the
             next level. Areas that need always work
             are <a href="#">coding</a>,
@@ -86,12 +88,12 @@ cd libvisual; cmake . &amp;&amp; make install</p>
             our <a href="#">mailing list</a>, or drop by our IRC channel
             on FreeNode <a href="irc://freenode.org/libvisual">#libvisual</a>.
           </p>
-        </div> <!-- content-right -->
-      </div>
+        </section> <!-- content-right -->
+      </section>
 
       <footer>
-        <span id="credits">Libvisual is Free, Open Source Software.</span>
-        <span id="copyright">Copyleft 2005-2013 All Rights Preserved.</span>
+        <small id="credits">Libvisual is Free, Open Source Software.</small>
+        <small id="copyright">Copyleft 2005-2013 All Rights Preserved.</small>
       </footer>
 
     </div> <!-- page -->
