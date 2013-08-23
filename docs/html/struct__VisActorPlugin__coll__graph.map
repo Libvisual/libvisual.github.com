@@ -1,7 +1,0 @@
-<map id="VisActorPlugin" name="VisActorPlugin">
-<area shape="rect" id="node2" href="$structLV_1_1Palette.html" title="Colour palette class for indexed colour modes." alt="" coords="52,99,137,127"/>
-<area shape="rect" id="node6" href="$classLV_1_1SongInfo.html" title="Song information class." alt="" coords="197,99,293,127"/>
-<area shape="rect" id="node10" href="$classLV_1_1EventQueue.html" title="LV::EventQueue" alt="" coords="189,6,307,34"/>
-<area shape="rect" id="node12" href="$classLV_1_1RandomContext.html" title="Pseudorandom number generator class." alt="" coords="331,6,469,34"/>
-<area shape="rect" id="node14" href="$classLV_1_1ParamList.html" title="LV::ParamList" alt="" coords="493,6,597,34"/>
-</map>
