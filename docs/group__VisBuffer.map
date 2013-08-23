@@ -1,0 +1,19 @@
+<map id="VisBuffer" name="VisBuffer">
+<area shape="rect" id="node1" href="$group__VisVideo.html" title="VisVideo" alt="" coords="160,5,235,33"/>
+<area shape="rect" id="node2" href="$group__VisPlugin.html" title="VisPlugin" alt="" coords="159,55,236,83"/>
+<area shape="rect" id="node3" href="$group__VisActor.html" title="VisActor" alt="" coords="161,106,233,134"/>
+<area shape="rect" id="node4" href="$group__VisRectangle.html" title="VisRectangle" alt="" coords="148,157,247,185"/>
+<area shape="rect" id="node5" href="$group__VisRandom.html" title="VisRandom" alt="" coords="152,207,243,235"/>
+<area shape="rect" id="node6" href="$group__VisMorph.html" title="VisMorph" alt="" coords="159,258,236,286"/>
+<area shape="rect" id="node7" href="$group__Libvisual.html" title="Libvisual" alt="" coords="161,309,233,337"/>
+<area shape="rect" id="node8" href="$group__VisDFT.html" title="VisDFT" alt="" coords="164,359,231,387"/>
+<area shape="rect" id="node10" href="$group__VisBin.html" title="VisBin" alt="" coords="168,410,227,438"/>
+<area shape="rect" id="node11" href="$group__VisParam.html" title="VisParam" alt="" coords="157,461,237,489"/>
+<area shape="rect" id="node12" href="$group__VisSongInfo.html" title="VisSongInfo" alt="" coords="151,511,244,539"/>
+<area shape="rect" id="node13" href="$group__VisInput.html" title="VisInput" alt="" coords="163,562,232,590"/>
+<area shape="rect" id="node14" href="$group__VisEvent.html" title="VisEvent" alt="" coords="160,613,235,641"/>
+<area shape="rect" id="node15" href="$group__VisColor.html" title="VisColor" alt="" coords="161,663,233,691"/>
+<area shape="rect" id="node16" href="$group__VisAudio.html" title="VisAudio" alt="" coords="160,714,235,742"/>
+<area shape="rect" id="node17" href="$group__VisPalette.html" title="VisPalette" alt="" coords="157,765,237,793"/>
+<area shape="rect" id="node18" href="$group__VisTime.html" title="VisTime" alt="" coords="163,815,232,843"/>
+</map>
